@@ -1,13 +1,16 @@
 import React from 'react'
+import ListHeader from './ListHeader'
+import ListItems from './ListItems'
+import style from './List.module.css'
 
 function List(){
     return(
-        <ul>
-            <li>Point #1</li>
-            <li>Point #2</li>
-            <li>Point #3</li>
-            <li>Point #4</li>
-        </ul>
+        <>
+        <ListHeader title="Shop By Categories" />
+        <div className = {style.listParent}>
+        <ListItems />
+        </div>
+        </>
     )
 }
 

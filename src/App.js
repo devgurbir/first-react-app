@@ -7,8 +7,7 @@ function App() {
   return (
     <div className="App">
       <List />
-      <Button btnText="Click Me" />
-      <Button btnText="Are Click Me Bhai" />
+      
     </div>
   );
 }
