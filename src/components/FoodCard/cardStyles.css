@@ -1,0 +1,90 @@
+.card {
+    margin: 20px 50px;
+    width: 425px;
+    
+
+}
+
+.image {
+    width: 425px;
+    height: 350px;
+    
+}
+
+.image > img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.infoContainer {
+    padding: 30px 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 26px;
+    color: #1d305a;
+}
+
+.desc > p {
+    line-height: 1.5;
+    color: rgb(136, 130, 130);
+    font-size: 18px;
+    }
+
+.header img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.moreInfo {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(136, 130, 130);
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceInfo > span:nth-child(1) {
+    font-size: 26px;
+    color: #1d305a;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.priceInfo > span:nth-child(2) {
+    font-size: 22px;
+    text-decoration: line-through;
+    color: #f79420;
+}
+
+.orderBtnDiv {
+    
+    
+}
+
+.orderBtnDiv > button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #38b87c;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 600;
+}

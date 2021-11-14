@@ -8,22 +8,11 @@ import Settings from './components/ReactMenu/settings'
 import Login from './components/ReactMenu/Login'
 import ContactUs from './components/ReactMenu/ContactUs'
 import StylishButton from './components/ReactMenu/stylishButton'
+import Card from "./components/FoodCard/Card"
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* Part 1 */}
-    <JoinUs />
-    <Settings />
-    <Login />
-    <ContactUs />
-
-    {/* Part 2 */}
-    <StylishButton bgColor = "#1a98c9" title="Join Us" color="white" />
-    <StylishButton bgColor = "#7db4c1" title="Settings" color="white" />
-    <StylishButton bgColor = "#f79420" title="Login" color="white" />
-    <StylishButton bgColor = "#b32832" title="Contact Us" color="white" />
-    
-
+  <Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
