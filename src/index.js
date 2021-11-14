@@ -3,16 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from "./components/ReactMobileOS/Header"
-import List from "./components/ReactMobileOS/List"
+import JoinUs from './components/ReactMenu/joinUs'
+import Settings from './components/ReactMenu/settings'
+import Login from './components/ReactMenu/Login'
+import ContactUs from './components/ReactMenu/ContactUs'
+import StylishButton from './components/ReactMenu/stylishButton'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header title = "Mobile Operating System" />
-    <List items = {["Android", "Blckberry", "iPhone", "Windows Phone"]} />
+    {/* Part 1 */}
+    <JoinUs />
+    <Settings />
+    <Login />
+    <ContactUs />
 
-    <Header title = "Mobile Manufacturers" />
-    <List items={["Samsung", "HTC", "Micromax", "Apple"]} />
+    {/* Part 2 */}
+    <StylishButton bgColor = "#1a98c9" title="Join Us" color="white" />
+    <StylishButton bgColor = "#7db4c1" title="Settings" color="white" />
+    <StylishButton bgColor = "#f79420" title="Login" color="white" />
+    <StylishButton bgColor = "#b32832" title="Contact Us" color="white" />
+    
 
   </React.StrictMode>,
   document.getElementById('root')
