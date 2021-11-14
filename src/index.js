@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from "./components/ReactMobileOS/Header"
+import List from "./components/ReactMobileOS/List"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header title = "Mobile Operating System" />
+    <List items = {["Android", "Blckberry", "iPhone", "Windows Phone"]} />
+
+    <Header title = "Mobile Manufacturers" />
+    <List items={["Samsung", "HTC", "Micromax", "Apple"]} />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
