@@ -3,16 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import JoinUs from './components/ReactMenu/joinUs'
-import Settings from './components/ReactMenu/settings'
-import Login from './components/ReactMenu/Login'
-import ContactUs from './components/ReactMenu/ContactUs'
-import StylishButton from './components/ReactMenu/stylishButton'
-import Card from "./components/FoodCard/Card"
+
 
 ReactDOM.render(
   <React.StrictMode>
-  <Card />
+  <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
